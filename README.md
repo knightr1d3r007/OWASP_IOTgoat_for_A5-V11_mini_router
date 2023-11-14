@@ -90,7 +90,7 @@ In case of failure or your device is no being accessible.
 
 4.-While holding the reset button, power the device. (keep holding the reset button for 10 seconds, the release the button)
    
-5.-Your USB flash drive will light up and the sysupgrade image will be installed to your device.
+5.-Your USB flash drive will light up and the OpenWRT sysupgrade image will be installed/flashed to your device.
    
 6.-Now, you are back in bussines. Install the IOTgoat image again and go back to hacking the device.
  
