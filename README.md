@@ -24,7 +24,7 @@ https://openwrt.org/toh/unbranded/a5-v11
 
 This mini router has a small size (62 mm x 24 mm x 14.5 mm) and a low price tag (in 2023, cost around $8 US on aliexpress).
 
-It is certainly one of the smallest and cheapest routers onto which you can install OpenWrt.
+It is certainly one of the smallest and cheapest routers onto which you can install OpenWrt (Linux for embedded devices).
 
 ![A5-V11_mini_router](A5-V11_3G_mini_router.PNG)
 
