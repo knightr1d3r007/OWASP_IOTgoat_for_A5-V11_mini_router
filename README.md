@@ -22,6 +22,7 @@ Therefore, is not a better experience to run 'the vulnearable IOTgoat firmware' 
 Enter the A5-V11 mini router 
 https://openwrt.org/toh/unbranded/a5-v11
 
+![A5-V11_mini_router](A5-V11_3G_mini_router.PNG)
 
 
 
