@@ -47,7 +47,8 @@ Once the OpenWRT installation its done come back here.
      
      download the image called 'Uboot_usb_256_03.img'
      
-     Please, be careful ins this section following the steps to install the 'Uboot image', this part is super important as it will determine if you can continue with the process or simple place your device in the garbage bin.
+     Please, be careful on this section following the steps to install the 'Uboot image'. 
+     This part is super important as it will determine if you can continue with the process or simple place your device in the garbage bin.
      
    - A OpenWRT factory firmware image, from here:
      https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/rt305x/openwrt-15.05.1-ramips-rt305x-a5-v11-squashfs-factory.bin
