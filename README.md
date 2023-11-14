@@ -52,7 +52,10 @@ However, first read the steps below for a better understanding of what is involv
      This part is super important as it will determine if you can continue with the process or simple place your device in the garbage bin.
      
    - A OpenWRT factory firmware image, from here:
+     
      https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/rt305x/openwrt-15.05.1-ramips-rt305x-a5-v11-squashfs-factory.bin
+
+Once you have both files, follow the steps on the OpenWRT-first-time-installation (link above). If you sucessfully installed the OpenWRT factory image, then go the step 3 on this page.
 
 
 3. Now, connect to your device openning your browser at 192.168.1.1, then go under 'system' > Firmware upgrade and there, install the sysupgrade image for the A5-v11 device, get it from here:
