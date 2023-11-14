@@ -31,8 +31,9 @@ https://openwrt.org/toh/unbranded/a5-v11
 
 
 
-1. Install a base OpenWRT firmware. For this purpose please follow the steps on the OpenWRT site https://openwrt.org/toh/unbranded/a5-v11#first-time_installation
-   Once the OpenWRT installation its done come back here.
+1. Install a base OpenWRT firmware. For this purpose please follow the steps on the OpenWRT site:
+https://openwrt.org/toh/unbranded/a5-v11#first-time_installation
+Once the OpenWRT installation its done come back here.
 
    
 2. Following the 10 steps on that OpenWRT page you need to install:
@@ -48,17 +49,17 @@ https://openwrt.org/toh/unbranded/a5-v11
      https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/rt305x/openwrt-15.05.1-ramips-rt305x-a5-v11-squashfs-factory.bin
 
 
-4. Now, connect to your device openning your browser at 192.168.1.1, then go under 'system' > Firmware upgrade and there, install the sysupgrade image for the A5-v11 device, get it from here:
+3. Now, connect to your device openning your browser at 192.168.1.1, then go under 'system' > Firmware upgrade and there, install the sysupgrade image for the A5-v11 device, get it from here:
    https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/rt305x/openwrt-15.05.1-ramips-rt305x-a5-v11-squashfs-sysupgrade.bin
 
    
-5. Now, once again connect to your device openning your browser at 192.168.1.1, then go under 'system' > Firmware upgrade and there, this time  you will install the IOTgoat firmware made for the A5-V11 mini router.
+4. Now, once again connect to your device openning your browser at 192.168.1.1, then go under 'system' > Firmware upgrade and there, this time  you will install the IOTgoat firmware made for the A5-V11 mini router.
 
 
-6. The custom binary is located in the release section of this page, donwload it and install it to your device. After upgrading, your IOTgoat would be ready to be hacked.
+5. The custom binary is located in the release section of this page, donwload it and install it to your device. After upgrading, your IOTgoat would be ready to be hacked.
 
 
-7.  Done. Drink beer!
+6.  Done. Drink beer!
           
 
 
