@@ -1,1 +1,0 @@
-# IOTgoat_for_A5-V11_mini_3G_router_board
