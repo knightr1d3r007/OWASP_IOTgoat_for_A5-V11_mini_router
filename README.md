@@ -35,7 +35,7 @@ https://openwrt.org/toh/unbranded/a5-v11
    
 https://openwrt.org/toh/unbranded/a5-v11#first-time_installation
 
-Once the OpenWRT installation its done come back here.
+However, first read the steps below for a better understanding of what is invoved on this process.
 
    
 2. Following the 10 steps on that OpenWRT page you need to install:
