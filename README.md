@@ -74,7 +74,9 @@ However, first read the steps below for a better understanding of what is invove
 
 
 
-# PS. TRICK TO RECOVER. In case of failure or your device is no being accessible.
+# PS. TRICK TO RECOVER. 
+
+In case of failure or your device is no being accessible.
 
 
 
