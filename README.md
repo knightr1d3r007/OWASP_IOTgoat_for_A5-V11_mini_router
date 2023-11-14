@@ -39,8 +39,10 @@ https://openwrt.org/toh/unbranded/a5-v11
 
    
    - A new Uboot image, from this site:
+     
      https://disk.yandex.com/d/ubSsjNZU34Xk2L  download the image called Uboot_usb_256_03.img
      Please, be careful ins this section following the steps to install the 'Uboot image', this part is super important as it will determine if you can continue with the process or simple place your device in the garbage bin.
+     
    - A OpenWRT factory firmware, from here:
      https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/rt305x/openwrt-15.05.1-ramips-rt305x-a5-v11-squashfs-factory.bin
 
@@ -79,9 +81,9 @@ https://openwrt.org/toh/unbranded/a5-v11
    
 5.-Your USB flash drive will light up and the sysupgrade image will be installed to your device.
    
-6.-Now, you are back in bussines. Install the IOTgoat image again and keep hacking.
+6.-Now, you are back in bussines. Install the IOTgoat image again and go back to hacking the device.
  
-Now you know why being careful installing the Uboot image was super important.
+#### Now you know why being careful installing the 'Uboot' image was super important.#######
 
 7.-Get another beer!
 
