@@ -1,6 +1,7 @@
 # OWASP_IOTgoat_build_for_A5-V11_mini_3G_router
 
 
+
 This repo has been made in regard to an issue with the OWASP IOTgoat project
 
 https://github.com/OWASP/IoTGoat
@@ -15,6 +16,8 @@ Therefore, is not a better experience to run 'the vulnearable IOTgoat firmware' 
 
 Enter the A5-V11 mini router 
 https://openwrt.org/toh/unbranded/a5-v11
+
+
 
 
 # Steps to install the IOTgoat binary into A5-V11 mini 3G router
@@ -40,16 +43,28 @@ https://openwrt.org/toh/unbranded/a5-v11
 7.  Done. Drink beer!
           
 
+
+
 # PS. TRICK TO RECOVER. In case of failure or your device is no being accessible.
 
+
+
 1.-Get a USB flash drive formated to FAT32
+
 2.-Place the OpenWRT sysupgrade image (from step 4) on the root directory of the USB flash drive
+
 3.-Connect the USB to your device
+
 4. While holding the reset button, power the device. (keep holding the reset button for 10 seconds, the release the button)
+   
 5. Your USB flash drive will light up and the sysupgrade image will be installed to your device.
-6. Now, you are back in bussines. Install the IOTgoat image again and keep hacking. 
+   
+6. Now, you are back in bussines. Install the IOTgoat image again and keep hacking.
+ 
 Now you know why being careful installing the Uboot image was super important.
-7. Get another beer!
+
+10. Get another beer!
+
 
 
 
