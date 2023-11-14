@@ -32,7 +32,9 @@ https://openwrt.org/toh/unbranded/a5-v11
 
 
 1. Install a base OpenWRT firmware. For this purpose please follow the steps on the OpenWRT site:
+   
 https://openwrt.org/toh/unbranded/a5-v11#first-time_installation
+
 Once the OpenWRT installation its done come back here.
 
    
