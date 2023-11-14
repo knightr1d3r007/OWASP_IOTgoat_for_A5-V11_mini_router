@@ -44,7 +44,9 @@ Once the OpenWRT installation its done come back here.
    - A new Uboot image, from this site:
      
      https://disk.yandex.com/d/ubSsjNZU34Xk2L
+     
      download the image called 'Uboot_usb_256_03.img'
+     
      Please, be careful ins this section following the steps to install the 'Uboot image', this part is super important as it will determine if you can continue with the process or simple place your device in the garbage bin.
      
    - A OpenWRT factory firmware image, from here:
