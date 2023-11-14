@@ -35,15 +35,16 @@ https://openwrt.org/toh/unbranded/a5-v11
    Once the OpenWRT installation its done come back here.
 
    
-2. Following the 10 steps on that page you need to install:
+2. Following the 10 steps on that OpenWRT page you need to install:
 
    
    - A new Uboot image, from this site:
      
-     https://disk.yandex.com/d/ubSsjNZU34Xk2L  download the image called Uboot_usb_256_03.img
+     https://disk.yandex.com/d/ubSsjNZU34Xk2L
+     download the image called 'Uboot_usb_256_03.img'
      Please, be careful ins this section following the steps to install the 'Uboot image', this part is super important as it will determine if you can continue with the process or simple place your device in the garbage bin.
      
-   - A OpenWRT factory firmware, from here:
+   - A OpenWRT factory firmware image, from here:
      https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/rt305x/openwrt-15.05.1-ramips-rt305x-a5-v11-squashfs-factory.bin
 
 
@@ -59,6 +60,7 @@ https://openwrt.org/toh/unbranded/a5-v11
 
 7.  Done. Drink beer!
           
+
 
 
 
