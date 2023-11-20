@@ -13,6 +13,8 @@ The IoTGoat Project is a deliberately insecure firmware based on OpenWrt and mai
 
 The IOTgoat project offer some pre-made binaries for Raspberry Pi 2 and X86 machines. Additionally, a VMDK image to use with VMware/VBox and virtualization with Qemu.
 
+![OWASP_IOTgoat](OWASP-IOTgoat-main.png)
+
 
 However, Internet Of Things (IOT) devices are non-standard computing "hardware". 
 IOT devices in essence are gadgets that connect wirelessly to a network and can transmit data. IOT devices most times are small and inexpensive.
