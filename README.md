@@ -83,7 +83,7 @@ dd if=Uboot_usb_256_03.img conv=notrunc of=16MBpadded.bin
 
 While holding the reset button, power the A5-V11 device. (keep holding the reset button for 10 seconds, the release the button). 
 Your USB flash drive will light up and the OpenWRT custom image will be installed/flashed. 
-Leave your device aloine, wait a minute. Now, your IOTgoat is ready to be hacked.
+Leave your device alone, wait a minute. Now, your IOTgoat is ready to be hacked.
 
 5.- Head to the challenges section of OWASP/IOTgoat and start hacking this little device.
 
