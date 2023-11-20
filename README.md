@@ -16,7 +16,7 @@ The IOTgoat project offer some pre-made binaries for Raspberry Pi 2 and X86 mach
 
 However, Internet Of Things (IOT) devices are non-standard computing "hardware". 
 IOT devices in essence are gadgets that connect wirelessly to a network and can transmit data. IOT devices most times are small and inexpensive.
-Therefore, is not a better experience to run 'the vulnearable IOTgoat firmware' in a real IOT device?
+Therefore, is not a better experience to learn about IOT exploitation than running 'the vulnearable IOTgoat firmware' in a real IOT device.
 -
 
 
@@ -30,7 +30,22 @@ It is certainly one of the smallest and cheapest routers onto which you can inst
 ![A5-V11_mini_router](A5-V11_3G_mini_router.PNG)
 
 
+However, this device needs to be upgraded/modded to work for our purposes.
 
+
+Project requirements:
+
+1.-We'll upgrade the mini router SPI eeprom capacity to 16MB with the chip "W25Q128". It can be found for a couple of bucks on aliexpress
+
+https://www.aliexpress.us/item/3256804269088009.html
+
+2.- The programer flasher ch341a with a clip adapter, which is very inexpensive and its supported for the awesome tool flashroom.
+
+https://www.ebay.com/itm/285027193020
+
+3.-An iron and solder
+
+4.-A PC running linux
 
 
 # Steps to install the IOTgoat binary into A5-V11 mini 3G router
