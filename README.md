@@ -16,7 +16,6 @@ The IOTgoat project offer some pre-made binaries for Raspberry Pi 2 and X86 mach
 
 However, Internet Of Things (IOT) devices are non-standard computing "hardware". 
 IOT devices in essence are gadgets that connect wirelessly to a network and can transmit data. IOT devices most times are small and inexpensive.
--
 Therefore, is not a better experience to learn about IOT exploitation than running 'the vulnearable IOTgoat firmware' in a real IOT device.
 -
 
@@ -31,10 +30,10 @@ It is certainly one of the smallest and cheapest routers onto which you can inst
 ![A5-V11_mini_router](A5-V11_3G_mini_router.PNG)
 
 
-However, this device needs to be upgraded/modded to work for our purposes.
+All in all, this device needs to be upgraded/modded to work for our purposes.
 
 
-Project requirements:
+# Project requirements:
 
 1.-We'll upgrade the mini router SPI eeprom capacity to 16MB with the chip "W25Q128". It can be found for a couple of bucks on aliexpress
 
@@ -49,47 +48,52 @@ https://www.ebay.com/itm/285027193020
 4.-A PC running linux
 
 
-# Steps to install the IOTgoat binary into A5-V11 mini 3G router
+# Device preparation process:
 
 
+1.- First, we need to create a blank canvas (named '16MBpadded.bin') of 16MB for the new flash chip. running the following command:
 
-1. Install a base OpenWRT firmware. For this purpose please follow the steps on the OpenWRT site:
-   
-https://openwrt.org/toh/unbranded/a5-v11#first-time_installation
+dd if=/dev/zero bs=1M count=16 of=16MBpadded.bin
 
-However, first read the steps below for a better understanding of what is involved on this process.
+2.- We will need a new Uboot for our Wireless attack gadget. (Thanks to Wert-Wert)
 
-   
-2. Following the 10 steps on that OpenWRT page you need to install:
+Get it from this site https://disk.yandex.com/d/ubSsjNZU34Xk2L
 
-   
-   - A new Uboot image, from this site:
-     
-     https://disk.yandex.com/d/ubSsjNZU34Xk2L
-     
-     download the image called 'Uboot_usb_256_03.img'
-     
-     Please, be careful on this section following the steps to install the 'Uboot image'. 
-     This part is super important as it will determine if you can continue with the process or simple place your device in the garbage bin.
-     
-   - A OpenWRT factory firmware image, from here:
-     
-     https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/rt305x/openwrt-15.05.1-ramips-rt305x-a5-v11-squashfs-factory.bin
+Choose the file/image called 'Uboot_usb_256_03.img'
 
-Once you have both files, follow the steps on the OpenWRT-first-time-installation (link above). If you sucessfully installed the OpenWRT factory image, then go the step 3 on this page.
+3.- Flash Uboot image to the new 16MB SPI.
+
+So, grab the "W25Q128" chip you bought.
+
+Connect it to the Programmer's Clip and flash the file 'Uboot_usb_256_03.img' with the following command:
+
+dd if=Uboot_usb_256_03.img conv=notrunc of=16MBpadded.bin
 
 
-3. Now, connect to your device openning your browser at 192.168.1.1, then go under 'system' > Firmware upgrade and there, install the sysupgrade image for the A5-v11 device, get it from here:
-   https://archive.openwrt.org/chaos_calmer/15.05.1/ramips/rt305x/openwrt-15.05.1-ramips-rt305x-a5-v11-squashfs-sysupgrade.bin
-
-   
-4. Now, once again connect to your device openning your browser at 192.168.1.1, then go under 'system' > Firmware upgrade and there, this time  you will install the IOTgoat firmware made for the A5-V11 mini router.
+# Steps to install the IOTgoat binary to the A5-V11 mini 3G router
 
 
-5. The custom binary is located in the release section of this page, donwload it and install it to your device. After upgrading, your IOTgoat would be ready to be hacked.
+1.- Get a USB flash drive formated to FAT32.
 
+2.- Get the Custom IOTgoat pre-made image from the release section of this page.
 
-6.  Done. Drink beer!
+3.- Then place the pre-made image on the root directory of the USB flash drive.
+
+4.- Connect the USB to your device.
+
+While holding the reset button, power the A5-V11 device. (keep holding the reset button for 10 seconds, the release the button). 
+Your USB flash drive will light up and the OpenWRT custom image will be installed/flashed. 
+Leave your device aloine, wait a minute. Now, your IOTgoat is ready to be hacked.
+
+5.- Head to the challenges section of OWASP/IOTgoat and start hacking this little device.
+
+https://github.com/OWASP/IoTGoat/wiki/IoTGoat-challenges
+
+remember for all the exercises always have in mind the OWASP Firmware Security Testing Methodology
+
+https://scriptingxss.gitbook.io/firmware-security-testing-methodology
+
+6.-  Drink beer!
           
 
 
@@ -98,29 +102,10 @@ Once you have both files, follow the steps on the OpenWRT-first-time-installatio
 
 
 
-# PS. There is another way to install. The easy way method aka the Uboot trick to recover. 
-
-In case of failure or your device is no being accessible.
 
 
 
 
-
-1.-Get a USB flash drive formated to FAT32
-
-2.-Place the OpenWRT sysupgrade image (from step 4) on the root directory of the USB flash drive
-
-3.-Connect the USB to your device
-
-4.-While holding the reset button, power the device. (keep holding the reset button for 10 seconds, the release the button)
-   
-5.-Your USB flash drive will light up and the OpenWRT sysupgrade image will be installed/flashed to your device.
-   
-6.-Now, you are back in bussines. Install the IOTgoat image again and go back to hacking the device.
- 
-#### Now you know why being careful installing the 'Uboot' image was super important.#######
-
-7.-Get another beer!
 
 
 
