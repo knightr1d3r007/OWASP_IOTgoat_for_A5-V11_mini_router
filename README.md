@@ -17,6 +17,7 @@ The IOTgoat project offer some pre-made binaries for Raspberry Pi 2 and X86 mach
 However, Internet Of Things (IOT) devices are non-standard computing "hardware". 
 IOT devices in essence are gadgets that connect wirelessly to a network and can transmit data. IOT devices most times are small and inexpensive.
 Therefore, is not a better experience to run 'the vulnearable IOTgoat firmware' in a real IOT device?
+-
 
 
 Enter the A5-V11 mini router 
@@ -81,7 +82,7 @@ Once you have both files, follow the steps on the OpenWRT-first-time-installatio
 
 
 
-# PS. TRICK TO RECOVER. 
+# PS. There is another way to install. The easy way method aka the Uboot trick to recover. 
 
 In case of failure or your device is no being accessible.
 
