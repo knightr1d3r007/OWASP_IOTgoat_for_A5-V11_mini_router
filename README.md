@@ -95,7 +95,7 @@ https://scriptingxss.gitbook.io/firmware-security-testing-methodology
 
 6.-  Drink beer!
           
-
+![IOTgoat_banner](OWASP-IOTgoat-banner.png)
 
 
 
