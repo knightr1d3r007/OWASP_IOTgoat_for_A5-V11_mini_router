@@ -85,7 +85,7 @@ Note: in my case the flash name/number was 'GD25Q64(B)'. your could be different
 
 
 
-5. Solder the "W25Q128" chip to the mini router.
+5.- Solder the "W25Q128" chip to the mini router.
 
 remove the original SPI flash chip from the Mini router and solder the "W25Q128" chip in its place.
 
