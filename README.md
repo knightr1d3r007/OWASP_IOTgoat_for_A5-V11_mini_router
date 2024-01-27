@@ -57,11 +57,13 @@ https://www.ebay.com/itm/285027193020
 
 dd if=/dev/zero bs=1M count=16 of=16MBpadded.bin
 
-2.- We will need a new Uboot for our Wireless attack gadget. (Thanks to Wert-Wert)
+
+2.- We will need a new Uboot for our Mini router. (Thanks to Wert-Wert)
 
 Get it from this site https://disk.yandex.com/d/ubSsjNZU34Xk2L
 
 Choose the file/image called 'Uboot_usb_256_03.img'
+
 
 3.- Merge the new Uboot with the blank canvas
 
@@ -81,6 +83,10 @@ sudo flashrom -p ch341a_spi -c "your-flash-chip-name/number-detected-by-flashrom
 
 Note: in my case the flash name/number was 'GD25Q64(B)'. your could be different.
 
+
+5. Solder the "W25Q128" chip to the mini router.
+
+remove the original SPI flash chip from the Mini router and solder the "W25Q128" chip in its place.
 
 
 
