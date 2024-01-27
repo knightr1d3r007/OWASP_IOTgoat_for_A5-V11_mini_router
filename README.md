@@ -63,13 +63,27 @@ Get it from this site https://disk.yandex.com/d/ubSsjNZU34Xk2L
 
 Choose the file/image called 'Uboot_usb_256_03.img'
 
-3.- Flash Uboot image to the new 16MB SPI.
+3.- Merge the new Uboot with the blank canvas
+
+
+dd if=Uboot_usb_256_03.img conv=notrunc of=16MBpadded.bin
+
+
+
+4.- Now, the image containing a new Uboot is ready, let's flash it to the W25Q128 (16MB).
 
 So, grab the "W25Q128" chip you bought.
 
-Connect it to the Programmer's Clip and flash the file 'Uboot_usb_256_03.img' with the following command:
+Connect it to the ch341a Programmer's Clip and flash the file with the following command:
 
-dd if=Uboot_usb_256_03.img conv=notrunc of=16MBpadded.bin
+
+sudo flashrom -p ch341a_spi -c "your-flash-chip-name/number-detected-by-flashrom" -w 16MBpadded.bin
+
+Note: in my case the flash name/number was 'GD25Q64(B)'. your could be different.
+
+
+
+
 
 
 # Steps to install the IOTgoat binary to the A5-V11 mini 3G router
