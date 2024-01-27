@@ -92,6 +92,7 @@ remove the original SPI flash chip from the Mini router and solder the "W25Q128"
 
 
 
+
 # Steps to install the IOTgoat binary to the A5-V11 mini 3G router
 
 
