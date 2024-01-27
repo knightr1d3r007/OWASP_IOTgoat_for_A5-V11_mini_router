@@ -81,7 +81,7 @@ Connect it to the ch341a Programmer's Clip and flash the file with the following
 
 sudo flashrom -p ch341a_spi -c "your-flash-chip-name/number-detected-by-flashrom" -w 16MBpadded.bin
 
-Note: in my case the flash name/number was 'GD25Q64(B)'. your could be different.
+Note: in my case the flash name/number was 'GD25Q64(B)' yours could be different.
 
 
 
